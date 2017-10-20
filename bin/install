@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+export MAKEFLAGS="-j$ASDF_CONCURRENCY"
+kerl build "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_VERSION"
+kerl install "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH"
+kerl cleanup "$ASDF_INSTALL_VERSION"
