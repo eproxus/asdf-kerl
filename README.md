@@ -1,5 +1,11 @@
 # asdf-kerl
-Kerl-based Erlang plugin for asdf version manager https://github.com/asdf-vm/asdf
+Erlang plugin for the
+[asdf version manager](https://github.com/asdf-vm/asdf) backed by
+[kerl](https://github.com/kerl/kerl).
+
+The best of both worlds. kerl's compatibility and build scripts, together
+with asdf's easy version switching and support for the `.tool-versions`
+file. You need both asdf and kerl installed.
 
 ## Install
 
