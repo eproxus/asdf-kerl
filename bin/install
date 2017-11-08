@@ -6,3 +6,13 @@ export MAKEFLAGS="-j$ASDF_CONCURRENCY"
 kerl build "$ASDF_INSTALL_VERSION" "asdf_$ASDF_INSTALL_VERSION"
 kerl install "asdf_$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH"
 kerl cleanup "$ASDF_INSTALL_VERSION"
+
+echo
+echo "Erlang $ASDF_INSTALL_VERSION has been installed. Activate globally with:"
+echo
+echo "    asdf global erlang $ASDF_INSTALL_VERSION"
+echo
+echo "Activate locally in the current folder with:"
+echo
+echo "    asdf local erlang $ASDF_INSTALL_VERSION"
+echo
