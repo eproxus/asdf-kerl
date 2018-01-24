@@ -1,5 +1,7 @@
-# asdf-kerl
-Erlang plugin for the
+This experimental plug-in has been superceded by changes in the official [`asdf-erlang`](https://github.com/asdf-vm/asdf-erlang) plug-in. It is recommended to install that one directly by running `asdf plugin-add erlang`.
+
+# ~~asdf-kerl~~
+Experimental Erlang plugin for the
 [asdf version manager](https://github.com/asdf-vm/asdf) backed by
 [kerl](https://github.com/kerl/kerl).
 
